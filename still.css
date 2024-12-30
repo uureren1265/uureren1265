@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+
+* {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.logo img {
+  float: left;
+  height: 5em;
+  margin-top: -30px;
+}
+
+.header {
+  background-color: #f8f8f8;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20em;
+  margin: 2em 5em;
+  padding: 2em;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar {
+  margin-left: 200px;
+}
+
+.navbar a {
+  margin: 3em;
+}
+
+.aciklama {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin: auto;
+  color: white;
+  padding: 2em 5em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aciklama h2 {
+  text-align: center;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-decoration: color(black);
+}
+
+header a {
+  color: black;
+}
+
+.kutucuk {
+  width: 200px;
+  margin: 12px;
+  height: 300px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-radius: 15%;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  outline-style: inset;
+}
+.kutucuk img {
+  margin-top: 30px;
+  border-radius: 90%;
+  width: 150px;
+  height: 150px;
+}
+
+.yemekresmi {
+  width: 300px;
+}
+.aciklama .tarifkismi {
+  width: 300px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.ayar {
+  margin-bottom: 100px;
+}
+.saga {
+  padding-right: 50px;
+  height: 200px;
+  float: left;
+}
+.yan {
+  float: right;
+  max-width: 700px;
+}
+.altina {
+  border-radius: 50px;
+  margin: 0 auto;
+  height: 50px;
+  width: 100px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  left: 300px;
+}
+.altina:hover {
+  cursor: pointer;
+  color: white;
+  height: 50px;
+  width: 100px;
+  background-color: rgb(138, 1, 138);
+  border-radius: 50px;
+}
+
+.formkismi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.formkismialtdal {
+  flex-basis: 45%;
+}
+
+.formkismialtdal form {
+  padding: 50px 40px;
+  background-color: rgb(10, 10, 10, 0.7);
+  border-radius: 5px;
+}
+
+.formkismialtdal form input,
+textarea {
+  width: 100%;
+  padding: 10px auto;
+  margin-bottom: 20px;
+  color: white;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-bottom: 2px solid white;
+  resize: none;
+}
+
+section {
+  padding: 60px 0;
+  border-bottom: 2px solid white;
+}
+
+.formkismialtdal h2 {
+  color: #f8f8f8;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.tus {
+  width: 100px;
+  height: 50px;
+  margin: 50px 10px 20px 180px;
+  border-radius: 50px;
+}
+.tus:hover {
+  cursor: pointer;
+  color: white;
+  height: 50px;
+  width: 100px;
+  background-color: rgb(138, 1, 138);
+  border-radius: 50px;
+}
+.iletisim h4 {
+  color: white;
+}
+.iletisim a {
+  text-decoration: none;
+  color: white;
+}
+.iletisim a:hover {
+  color: rgb(129, 13, 125);
+  cursor: pointer;
+}
+
+.isinlanma {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 150px;
+}
+
+.isinlanma:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(138, 1, 138);
+  border-radius: 50px;
+}
